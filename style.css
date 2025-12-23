@@ -34,14 +34,14 @@ body{
     z-index: 1000;
 }
 
-@media (max-width: 648px)  and (max-width: 1024px) {
+@media (max-width: 480px){
     .nav-bar{
     display: flex;
     justify-content: center;
-    position: fixed;
     background: rgb(119, 118, 118);
     backdrop-filter: blur(150px);
     border-radius: 90px;
+    width: 100%;
     }
 }
 
@@ -55,7 +55,7 @@ body{
     src: url(Fonts/MontserratAlternates-Regular.otf);
 }
 
-@media (max-width: 720px)  and (max-width: 1024px) {
+@media (max-width: 480px){
     .holder-content,.dessous{
         font-size: 3rem;
         top: 60px;
@@ -128,14 +128,17 @@ a:hover::after{
     display: inline-block;
 }
 
-@media (max-width: 720px)  and (max-width: 1024px) {
+@media (max-width: 480px){
     .nav-bar{
-        width: 100%;
-        font-size: 0.9rem;
+        width: 59%;
+        left: 3px;
+        font-size: 0.6rem;
+        position: fixed;
+        z-index: 1000;
     }
 }
 
-@media (max-width: 720px)  and (max-width: 1024px){
+@media (max-width: 480px){
     .slash{
         display: inline-block;
     }
@@ -185,19 +188,19 @@ span, .t-holder {
     z-index: 10;
 }
 
-@media (min-width: 768px){
+@media (min-width: 480px){
     h1, .holder{
         padding: 12rem 0 3rem;
     }
 }
 
-@media (min-width: 768px){
+@media (min-width: 480px){
     span, .t-holder {
         display: block;
     }
 }
 
-@media (min-width: 768px){
+@media (min-width: 480px){
     span, .sean {
         display: block;
     }
@@ -218,7 +221,7 @@ span, .t-holder {
     text-align: center;
 }
 
-@media (max-width: 720px)  and (max-width: 1024px) {
+@media (max-width: 480px){
     .dessous{
         top: -3px;
     }
@@ -241,7 +244,7 @@ span, .t-holder {
     
 }
 
-@media (max-width: 720px)  and (max-width: 1024px) {
+@media (max-width: 480px){
     .subtitle, .bas-holder{
         font-size: 1rem;
          top: -40px;
@@ -334,7 +337,7 @@ image{
     margin-top: 30px;
 }
 
-@media (max-width: 720px)  and (max-width: 1280px) {
+@media (max-width: 480px){
     .container, .div1, .link1, .flottant div{
         width: 90%;
         border-right: none;
@@ -457,7 +460,7 @@ image{
     margin-top: 10px;
 }
 
-@media (max-width: 720px)  and (max-width: 1280px) {
+@media (max-width: 480px){
     .container1, .div2, .link2, .flottant1 div{
         width: 90%;
         border-right: none;
@@ -581,7 +584,7 @@ image{
     margin-top: 10px;
 }
 
-@media (max-width: 720px)  and (max-width: 1280px) {
+@media (max-width: 480px){
     .container2, .div3, .link3, .flottant2 div{
         width: 90%;
         border-right: none;
@@ -704,7 +707,7 @@ image{
     margin-top: 30px;
 }
 
-@media (max-width: 720px)  and (max-width: 1280px) {
+@media (max-width: 480px){
     .container3, .div4, .link4, .flottant3 div{
         width: 90%;
         border-right: none;
@@ -776,7 +779,7 @@ span, .t-holder1 {
     z-index: 10;
 }
 
-@media (max-width: 720px)  and (max-width: 1024px) {
+@media (max-width: 480px){
     .holder-content1{
         font-size: 3rem;
         top: 1250px;
@@ -785,19 +788,19 @@ span, .t-holder1 {
     }
 }
 
-@media (min-width: 768px){
+@media (min-width: 480px){
     h1, .holder1{
         padding: 12rem 0 3rem;
     }
 }
 
-@media (min-width: 768px){
+@media (min-width: 480px){
     span, .t-holder1 {
         display: block;
     }
 }
 
-@media (min-width: 768px){
+@media (min-width: 480px){
     span, .sean1 {
         display: block;
     }
@@ -826,7 +829,7 @@ span, .t-holder1 {
     word-break: break-all;
 }
 
-@media (max-width: 720px)  and (max-width: 1024px) {
+@media (max-width: 480px){
     .subtitle1, .bas-holder1{
         font-size: 12px;
         top: 1200px;
@@ -923,7 +926,7 @@ span, .t-holder1 {
     margin-top: 10px;
 }
 
-@media (max-width: 720px)  and (max-width: 1280px) {
+@media (max-width: 480px){
     .container4, .div5, .link5, .flottant4 div{
         width: 90%;
         border-right: none;
@@ -1048,7 +1051,7 @@ span, .t-holder1 {
     color: white;
 }
 
-@media (max-width: 720px)  and (max-width: 1280px) {
+@media (max-width: 480px){
     .container5, .div6, .link6, .flottant5 div{
         width: 90%;
         border-right: none;
@@ -1167,4 +1170,63 @@ footer .bas{
 .fl2 a{
     color: #8fdcc2;
     z-index: 100;
+}
+
+@media (max-width: 480px){ 
+   footer .bas{
+    display: flex;
+    z-index: 40;
+    width: 100%;
+    max-width: 1600px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.foot_text{
+    position: relative;
+    top: -10px;
+    right: -42px;
+    display: flex;
+    font-size: 10px;
+}
+
+.foot_list{
+    display: block;
+    top: -10px;
+    right: -30px;
+    margin-top: 20px;
+}
+
+.fl1{
+    margin-bottom: 20px;
+}
+
+.fl1 a{
+    color: #8fdcc2;
+    z-index: 100;
+}
+
+.foot_text1{
+    position: relative;
+    top: -272px;
+    right: -182px;
+    display: flex;
+    font-size: 10px;
+}
+
+.foot_list2{
+    display: block;
+    top: -272px;
+    right: -168px;
+    margin-top: 20px;
+}
+
+.fl2{
+    margin-bottom: 20px;
+}
+
+.fl2 a{
+    color: #8fdcc2;
+    z-index: 100;
+}
 }
