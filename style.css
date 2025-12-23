@@ -311,7 +311,7 @@ image{
     left: 90px;
     z-index: 10;
     display: block;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .ai{
@@ -424,7 +424,7 @@ image{
 }
 
 .cadre_image1:hover{
-    transform: translateY(15px);
+    transform: translateY(25px);
 }
 
 .cadre_image1{
@@ -979,7 +979,7 @@ span, .t-holder1 {
 }
 
 .link6{  /*deplacement carte */
-    top: -1140px;
+    top: -1870px;
     right: -980px;
     background: black;
     color: #364442;
@@ -1021,7 +1021,7 @@ span, .t-holder1 {
     position: absolute;
     max-width: 70%;
     top: 150px;
-    left: 60px;
+    left: 70px;
     z-index: 1000;
     display: block;
     transition: 0.5s;
