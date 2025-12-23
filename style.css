@@ -34,7 +34,7 @@ body{
     z-index: 1000;
 }
 
-@media (max-width: 480px){
+@media (max-width: 360px){
     .nav-bar{
     display: flex;
     justify-content: center;
@@ -55,7 +55,7 @@ body{
     src: url(Fonts/MontserratAlternates-Regular.otf);
 }
 
-@media (max-width: 480px){
+@media (max-width: 360px){
     .holder-content,.dessous{
         font-size: 3rem;
         top: 60px;
@@ -128,7 +128,7 @@ a:hover::after{
     display: inline-block;
 }
 
-@media (max-width: 480px){
+@media (max-width: 360px){
     .nav-bar{
         width: 59%;
         left: 3px;
@@ -138,7 +138,7 @@ a:hover::after{
     }
 }
 
-@media (max-width: 480px){
+@media (max-width: 360px){
     .slash{
         display: inline-block;
     }
@@ -164,6 +164,16 @@ main{
     top: -20px;
 }
 
+@media (min-width: 360px){
+    .titre-holder {
+        display: block;
+        position: relative;
+        text-align: center;
+        top: -140px;
+    }
+}
+
+
 h1, .holder{
     position: relative;
 }
@@ -188,19 +198,19 @@ span, .t-holder {
     z-index: 10;
 }
 
-@media (min-width: 480px){
+@media (min-width: 360px){
     h1, .holder{
         padding: 12rem 0 3rem;
     }
 }
 
-@media (min-width: 480px){
+@media (min-width: 360px){
     span, .t-holder {
         display: block;
     }
 }
 
-@media (min-width: 480px){
+@media (min-width: 360px){
     span, .sean {
         display: block;
     }
@@ -221,7 +231,7 @@ span, .t-holder {
     text-align: center;
 }
 
-@media (max-width: 480px){
+@media (max-width: 360px){
     .dessous{
         top: -3px;
     }
@@ -244,7 +254,7 @@ span, .t-holder {
     
 }
 
-@media (max-width: 480px){
+@media (max-width: 360px){
     .subtitle, .bas-holder{
         font-size: 1rem;
          top: -40px;
@@ -337,7 +347,7 @@ image{
     margin-top: 30px;
 }
 
-@media (max-width: 480px){
+@media (max-width: 360px){
     .container, .div1, .link1, .flottant div{
         width: 90%;
         border-right: none;
@@ -460,7 +470,7 @@ image{
     margin-top: 10px;
 }
 
-@media (max-width: 480px){
+@media (max-width: 360px){
     .container1, .div2, .link2, .flottant1 div{
         width: 90%;
         border-right: none;
@@ -584,7 +594,7 @@ image{
     margin-top: 10px;
 }
 
-@media (max-width: 480px){
+@media (max-width: 360px){
     .container2, .div3, .link3, .flottant2 div{
         width: 90%;
         border-right: none;
@@ -707,7 +717,7 @@ image{
     margin-top: 30px;
 }
 
-@media (max-width: 480px){
+@media (max-width: 360px){
     .container3, .div4, .link4, .flottant3 div{
         width: 90%;
         border-right: none;
@@ -779,7 +789,7 @@ span, .t-holder1 {
     z-index: 10;
 }
 
-@media (max-width: 480px){
+@media (max-width: 360px){
     .holder-content1{
         font-size: 3rem;
         top: 1250px;
@@ -788,19 +798,19 @@ span, .t-holder1 {
     }
 }
 
-@media (min-width: 480px){
+@media (min-width: 360px){
     h1, .holder1{
         padding: 12rem 0 3rem;
     }
 }
 
-@media (min-width: 480px){
+@media (min-width: 360px){
     span, .t-holder1 {
         display: block;
     }
 }
 
-@media (min-width: 480px){
+@media (min-width: 360px){
     span, .sean1 {
         display: block;
     }
@@ -829,7 +839,7 @@ span, .t-holder1 {
     word-break: break-all;
 }
 
-@media (max-width: 480px){
+@media (max-width: 360px){
     .subtitle1, .bas-holder1{
         font-size: 12px;
         top: 1200px;
@@ -926,7 +936,7 @@ span, .t-holder1 {
     margin-top: 10px;
 }
 
-@media (max-width: 480px){
+@media (max-width: 360px){
     .container4, .div5, .link5, .flottant4 div{
         width: 90%;
         border-right: none;
@@ -1051,7 +1061,7 @@ span, .t-holder1 {
     color: white;
 }
 
-@media (max-width: 480px){
+@media (max-width: 360px){
     .container5, .div6, .link6, .flottant5 div{
         width: 90%;
         border-right: none;
@@ -1172,7 +1182,7 @@ footer .bas{
     z-index: 100;
 }
 
-@media (max-width: 480px){ 
+@media (max-width: 360px){ 
    footer .bas{
     display: flex;
     z-index: 40;
